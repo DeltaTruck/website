@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Century';
+    src: url('Century.woff2') format('woff2'),
+        url('Century.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

@@ -1,0 +1,867 @@
+    @charset "utf-8";
+    body,p,span,h1,h2,h3,h4,h5,h6,a{
+        margin:0;
+        padding:0;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    html,body{
+        height: 100%;
+        background-color: #f2f5fa;
+    }
+    figure{
+        margin: 0;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0;
+    }
+    .container
+    {
+        max-width: 1200px;
+        width: 100%;
+    }
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    h1{
+        font-size: 50px;
+        letter-spacing: 3px;
+        line-height: 86px;
+        color: #ec3328;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 36px;
+        letter-spacing: 2px;
+        line-height: 48px;
+        color: #ec3328;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+   h3{
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 48px;
+        color: #2e3192;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+   }
+    h5{
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 48px;
+        color: #2e3192;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+    }
+    p{
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 34px;
+        color: #333333;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500; 
+    }
+
+    .btn{
+        font-size: 24px;
+        letter-spacing: 1px;
+        color: #ec3328;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        text-transform: uppercase;
+       padding: 8px 9.5px;
+        border-radius: 10px;
+        border: 2px solid #ec3328;
+        font-weight: 500;
+    }
+
+    .btn:focus, .btn:hover {
+        transition: all 0.5s ease;
+    }
+    .btn:hover{
+        color: white;
+        background-color:#ec3328;
+    }
+
+    /*----------------header-------------*/
+    header{
+        width: 100%;
+        float: left;
+    }
+    .head_top
+    {
+        width: 100%;
+        float: left;
+    }
+    .heading_center{
+        width: 100%;
+        float: left;
+        margin-top: 160px;
+    }
+    .p0,.p1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+   .logo {
+        width: 100%;
+        float: left;
+        padding-top: 60px;
+    }
+     header .heading_center p{
+        margin: 70px 0 200px 0;
+        max-width: 650px;
+        width: 100%;
+    }
+     .header_right {
+        width: 100%;
+        float: left;
+        margin-left: -214px;
+    }
+
+    /*-------------About-----------*/ 
+    .about{
+        width: 100%;
+        float: left; 
+        margin: 0px 0 70px 0;
+        position: relative;
+    }
+
+    .about_right{
+        width: 100%;
+        float: left; 
+        margin-top: 171px
+    }
+    .about img{
+        float: right;
+        margin-top: 229px;
+    }
+    .about .about_right p{
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+      .about .about_right h2{
+        margin-bottom: 60px;
+        font-size: 30px;
+      }
+      .about_btn{
+         width: 100%;
+        float: left; 
+        margin-top: 25px;
+      }
+      .about .row{
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        align-content: center;
+      }
+      .about_btn .btn{
+        padding: 8px 9.5px;
+        font-size: 23px
+      }
+
+      .about figure.about_first,#konw_more img.about_before{
+        position: relative;
+        z-index: 999;
+      }
+      .about img.about_before {
+        position: absolute;
+        left: -81%;
+        top: -184px;
+        z-index: -1;
+    }
+    #konw_more img.about_before{
+         left: 6%;
+           top: -240px;
+        position: absolute;
+        z-index: -1;
+    }
+    .about.know img.about_before{
+        left: 86px;
+    top: -214px;
+    }
+    .about.know img {
+    float: left;
+    }
+
+    /*-----------who_say----------------*/
+    .know_more{
+         width: 100%;
+        float: left; 
+        position: relative;
+        overflow: hidden;
+    }
+    .know_more img{
+       width: 100%;
+        float: left;    
+    }
+    .know_more:before{
+        position: absolute;
+        top:0;
+        right: 0;
+        content: url(../img/know_right.png);
+    }
+    #konw_more img.about_img{
+        float: left;
+    }
+
+    /*----------Needs-----------------*/
+    .who_needs{
+        width: 100%;
+        float: left;
+    }
+    .left {
+        width: 100%;
+        float: left;
+    }
+    .who_needs ul li:nth-child(even) .right{
+        text-align: right;
+        margin-right: 13px;
+        margin-top: -52px;
+    }
+     .who_needs ul li:nth-child(odd) .right{
+        margin-top: -52px;
+    }
+
+    .who_needs ul li:nth-child(1) h3{
+        color: #f7941d; 
+    }
+    .who_needs ul li:nth-child(2) h3{
+        color: #2e3192; 
+    }
+    .who_needs ul li:nth-child(3) h3{
+        color: #00a651; 
+    }
+    .who_needs ul li:nth-child(4) h3{
+        color: #ec008c; 
+    }
+    .who_needs ul li:nth-child(5) h3{
+        color: #00aeef;
+    }
+
+    .who_needs p{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        width: 100%;
+    }
+    .who_needs .heading p,.who_need_btm p{
+        padding: 74px 0 80px 0;
+    }
+    .who_need_btm{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .who_needs ul li {
+        width: 100%;
+        float: left;
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+    }
+    .who_needs ul{
+            margin-top: 50px;
+            display: inline-block;
+            width: 100%;
+            float: left;
+    }
+    .client_lap,.about_mob{
+        display: none;
+    }
+    /*----------------who say--------------*/
+    .who_say{
+        width: 100%;
+        float: left;
+        background-image: url(../img/who_say_1.png);
+        background-repeat: no-repeat;
+        padding: 130px 0 0 0;
+        background-color: #f2f5fa;
+    }
+    .fre_quest{
+        width: 100%;
+        float: left;
+        border-radius: 20px;
+        filter: drop-shadow(4.95px 4.95px 7.5px rgba(198,207,220,0.46));
+        background-color: #ffffff;
+        position: relative;
+        z-index: 999;
+    }
+    .who_say .fre_quest h5{
+        padding: 6px 18px;
+        border-bottom: 2px solid #2e3192;
+        min-height: 110px;
+    }
+    .heading{
+       width: 100%;
+        float: left;  
+        text-align: center;
+        padding: 100px 0 0 0;
+    }
+    .who_say .fre_quest p{
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: 500;
+        padding: 16px 20px;
+        min-height: 302px;
+    }
+    .who_say .heading p{
+        font-size: 18px;
+        font-weight: 400;
+        padding:80px 0 80px 0;
+        max-width: 750px;
+        margin:0 auto;
+    }
+    .box_first{
+        width: 100%;
+        float:left;
+        margin-bottom: 29px;
+    }
+    /*--------------------About delta Truck----------------*/
+    .delta_clients{
+        width: 100%;
+        float:left;
+        margin: 168px 0 25px 0;
+    }
+    .delta_clients h5{
+        font-size: 36px;
+        letter-spacing: 2px;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+    .delta_clients p,footer p{
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        color: #333333;
+        font-weight: 500;
+        margin-bottom: 29px;
+    }
+    .delta_clients figcaption{
+        text-align: center;
+        margin-top: 40px;
+    }
+     .delta_clients .clients_right h2{
+        font-size: 32px;
+        margin-bottom: 90px;
+    }
+    .delta_clients p.c_left_shape,.delta_clients p.c_right_shape,p.c_right_second_shape{
+        position: relative;
+    }
+    .delta_clients p.c_left_shape:before{
+        position: absolute;
+        content: url(../img/left_quote.png);
+        top: -24px;
+        left: -11px;
+        z-index: -1;   
+    }
+    .delta_clients p.c_right_shape:before{
+        position: absolute;
+        content: url(../img/right_quote.png);
+        bottom: -9px;
+        right: 263px;
+        z-index: -1; 
+    }
+
+    .delta_clients p.c_right_second_shape:before{
+        position: absolute;
+    content: url(../img/right_quote.png);
+    bottom: -7px;
+    right: 120px;
+    z-index: -1;
+    }
+
+    .delta_clients ul li{
+        width: 100%;
+        float: left;
+        outline:none;
+    }
+    .delta_clients ul{
+        overflow: hidden;
+        width: 100%;
+        float: right;
+        position: relative;
+        outline: none;
+    }
+    .delta_clients ul.slick-dots li{
+        display: inline-block;
+        width: auto;
+        text-align: right;
+        float: none;
+        margin-right: 10px;
+    }
+    .delta_clients ul.slick-dots{
+        text-align: right;
+        position: absolute;
+        left: -20%;
+        bottom: 81px;
+    }
+    .delta_clients ul.slick-dots li.slick-active button,.delta_clients ul.slick-dots li button{
+        font-size: 0;
+        border: none;
+        width: 50px;
+        height: 10px;
+        border-radius: 5px;
+        background-color: #ec3328;
+        outline: none;
+    }
+    .delta_clients ul.slick-dots li button {
+        background-color: #dee6f2;
+    }
+    /*------------------footer-----------------*/
+   footer{
+    width:100%;
+    float: left; 
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: center;
+    padding: 82px 0 0 0;
+ }
+footer h2{
+    line-height: 60px;
+}
+footer ul li {
+    display: inline-block;
+    margin-right: 51px;
+    position: relative;
+}
+footer ul li:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    border-radius: 5px;
+    height: 10px;
+    background-color: black;
+    top: 14px;
+    left: -33px;
+}
+footer ul li:first-child:before {
+    background-color: transparent;
+}
+
+footer ul li a{
+    line-height: 36px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+footer ul li a:hover{
+    color: white;
+}
+footer ul{
+    padding: 100px 0 20px 0;
+}
+footer ul li:last-child {
+    margin-right: 0px;
+}
+footer p{
+    margin-bottom: 0px;
+    padding: 80px 0 100px 0;
+    font-size: 18px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+footer .footer_btn .btn{
+      padding: 11px 16.5px;
+  }
+
+    /*-----------Responsive----------------*/
+
+
+@media (min-width:1400px) and (max-width:1680px){
+   .who_say{background-position: center;background-size: cover;}
+   .header_right img{max-width: 760px;}
+   .head_top .row{display: flex;vertical-align: middle;align-items: center;}
+   .header_right{margin-left: -187px;}
+   .about{padding:60px 0 90px 0;overflow: hidden;margin: -132px 0 -101px 0;}
+   .konw_more img.about_before{left: 18px;top: -194px;}
+   .konw_more img.about_img{float: left;}
+}
+@media (min-width:1366px) and (max-width:1368px){
+    .about {padding: 144px 0 74px 0 !important;}
+}
+
+@media (min-width:1199px) and (max-width:1315px){
+    .header_right {margin-left: -14px !important;}
+    .header_right img {max-width: 490px !important;}
+}
+@media (min-width:992px) and (max-width:1062px){
+    .who_needs ul li:nth-child(even) .right {margin-right: -20px !important;}
+    .who_needs ul li:nth-child(odd) .right {margin-top: -53px;}
+}
+@media (min-width:1054px) and (max-width:1084px){
+    .who_needs ul li:nth-child(even) .right {margin-right: -15px !important;}
+    .who_needs ul li:nth-child(odd) .right {margin-top: -53px;}
+}
+@media (min-width:1085px) and (max-width:1182px){
+     .who_needs ul li:nth-child(even) .right {margin-right: -10px !important;}
+     .who_needs ul li:nth-child(odd) .right {margin-top: -53px;}
+}
+@media (min-width:880px) and (max-width:989px){
+     .who_needs ul li:nth-child(even) .right {margin-right: 38px !important;margin-right: 22px !important;}
+}
+@media (min-width:1100px) and (max-width:1199px){
+    .about img.about_before {left: -42% !important;top: -155px !important;}
+}
+@media (min-width:832px) and (max-width:906px){
+    .about img.about_before {top: -325px !important;left: -47% !important;}
+}
+@media (min-width:907px) and (max-width:990px){
+    .about img.about_before {top: -297px !important;left: -35% !important;}
+}
+@media (min-width:1600px) and (max-width:1601px){
+    .about{margin: -102px 0 -86px 0 !important;}
+}
+@media (min-width:600px) and (max-width:601px){
+   .delta_clients p.c_right_shape:before {right: 248px !important;}
+   .delta_clients p.c_right_second_shape:before {right: 164px !important;}
+}
+@media (min-width:800px) and (max-width:805px){
+   .delta_clients p.c_right_shape:before {bottom: -30px !important;right: 23px !important;}
+   .delta_clients p.c_right_second_shape:before{right: 47px !important;}
+}
+@media (min-width:400px) and (max-width:411px){
+ .delta_clients p.c_right_shape:before {right: 120px !important;}
+ .delta_clients p.c_right_second_shape:before {right: -17px !important;}
+}
+@media (min-width:360px) and (max-width:365px){
+   .delta_clients p.c_right_shape:before {right: 77px !important; bottom: -20px !important;}
+   .delta_clients p.c_right_second_shape:before {right: 35px !important;bottom: 13px !important;}
+}
+@media (min-width:412px) and (max-width:414px){
+   .delta_clients p.c_right_shape:before {right: 15px !important;}
+   .delta_clients p.c_right_second_shape:before {right: -16px !important;}
+}
+@media (min-width:731px) and (max-width:736px){
+.delta_clients p.c_right_shape:before{right: 136px !important;}
+.delta_clients p.c_right_second_shape:before{right: 85px !important;}
+}
+@media (min-width:568px) and (max-width:570px){
+/*.delta_clients p.c_right_shape:before{right: 210px !important;}  */
+}
+
+@media(max-width:1500px) {
+    .who_say{background-position: center;background-size: cover;margin-top: -74px;}
+    .who_say .heading p{padding: 50px 0 50px 0;}
+    .who_say .fre_quest p {font-size: 16px;min-height: 285px;}
+    .delta_clients{margin: 106px 0 10px 0;}
+    footer h2 {line-height: 52px;font-size: 33px;}
+    footer .footer_btn .btn {font-size: 21px;}
+    footer p{padding: 59px 0 70px 0;}
+    footer ul {padding: 64px 0 20px 0;}
+    .header_right img {max-width: 600px;}
+    .header_right {margin-left: -79px;}
+    .head_top .row{display: flex;vertical-align: middle;align-items: center;}
+    .logo{padding-top: 22px;padding-left: 15px;}
+    .heading_center{margin-top: 73px;}
+    header .heading_center p {margin: 70px 0 85px 0;font-size: 21px}
+    h1 {font-size: 43px;line-height: 67px;}
+    .header_btn .btn {font-size: 22px;}
+    .who_needs .heading p, .who_need_btm p {padding: 38px 0 60px 0;}
+    .who_need_btm p {padding: 46px 0px 49px 0;}
+    .about img.about_img {width: 100%;float: left;}
+    .about img.about_before{left: -74%;top: -290px;}
+    .about{padding: 273px 0 55px 0;margin: 0 0;}
+    .about{overflow: hidden;}
+    section.about.know {padding: 0px 0 103px 0 !important;}
+   .konw_more img.about_before{left: 0 !important;top: -250px !important;}
+   .konw_more img.about_img{float: left;}
+   .p0{padding-left: 15px;}
+   .about_right{margin-top: 105px;}
+   .about {padding: 35px 0 74px 0 !important;}
+   .about .about_right h2 {margin-bottom: 32px;}
+   .about .about_right p{margin-bottom: 28px;}
+}
+
+@media(max-width:1199px) {
+    .who_say .heading p {padding: 40px 0 40px 0;}
+    .who_say .fre_quest h5 {padding: 14px 18px;font-size: 22px;line-height: 38px;min-height: 105px;}
+    .who_say .fre_quest p {font-size: 15px;min-height: 278px;line-height: 26px;}
+    .delta_clients .clients_right h2 {font-size: 26px;margin-bottom: 49px;}
+    .delta_clients ul.clients img{width: 100%;float: left;}
+    .delta_clients p{margin-bottom: 22px;font-size: 13px;}
+    .delta_clients h5{margin-bottom: 0;font-size: 30px;}
+    .p1 {padding-left: 15px;}
+    .delta_clients ul.slick-dots{bottom: 45px;}
+    .delta_clients {margin: 90px 0 25px 0;}
+    footer h2 {line-height: 47px;font-size: 28px;}
+    footer .footer_btn .btn {font-size: 18px;}
+    footer{padding: 40px 0 0 0;}
+    footer ul li a{font-size: 16px;}
+    .header_right img{width: 100%;}
+    h1 {font-size: 36px;line-height: 61px;}
+    header .heading_center p {margin: 60px 0 65px 0;font-size: 18px;}
+    .header_btn .btn {font-size: 20px;}
+    .who_needs h2{font-size: 31px;}
+    .who_needs .heading p{padding: 19px 0 60px 0;}
+    .who_needs p {font-size: 16px;}
+    .who_needs_btn .btn {font-size: 21px;}
+    .about img.about_before {left: -62%;top: -262px;max-width: 724px;}
+    .about_right{margin-top: 77px;}
+    .about .about_right h2 {margin-bottom: 4px;font-size: 24px;}
+    .about .about_right p {font-size: 17px;margin-bottom: 5px;}
+    .about_btn .btn {padding: 8px 19.5px;font-size: 20px;}
+    .about img.about_img{margin-top: 169px;}
+    .about {margin: 152px 0 0px 0;}
+    .about.know img.about_before {left: 0%;top: -268px;max-width: 673px;}
+    .header_right {margin-left: -36px;}
+    .heading{padding: 70px 0 0 0;}
+    .who_say{margin-top: -117px;}
+    .about.know {margin: 9px 0 0px 0;}
+    .about {margin: 0px 0 0px 0;padding: 30px 0 55px 0 !important;}
+    .delta_clients p.c_right_shape:before{bottom: -16px;right: 231px;}
+}
+
+@media(max-width:1023px) {
+    h2 {font-size: 33px;}
+    .who_say .heading p {padding: 33px 0 40px 0;line-height: 30px;font-size: 17px;}
+    .who_say .fre_quest h5 {padding: 11px 18px;font-size: 21px;line-height: 35px;min-height: 94px;}
+    .delta_clients .clients_right h2 {font-size: 25px;margin-bottom: 39px;}
+    .delta_clients p {margin-bottom: 19px;font-size: 14px;line-height: 28px;}
+    footer p {padding: 47px 0 51px 0;font-size: 16px;}
+    .header_right {margin-left: 0;}
+    h1 {font-size: 30px;line-height: 52px;}
+    header .heading_center p {margin: 42px 0 50px 0;font-size: 17px;}
+    .who_needs ul li:nth-child(even) .right{margin-right: -9px;}
+    .who_need_btm p {padding: 46px 0px 29px 0;}
+    .who_needs_btn .btn {font-size: 18px;}
+    .about .about_right p {font-size: 15px;margin-bottom: 10px;line-height: 32px;}
+    .about .about_right h2 {margin-bottom: 12px;}
+    .about_btn .btn {padding: 8px 19.5px;font-size: 19px;}
+    .about img.about_img{margin-top: 43px;}
+    .about img.about_before{top: -392px;}
+    .about.know img.about_before {left: 0%;top: -361px !important;max-width: 623px;}
+    .header_btn .btn {font-size: 18px;}
+    .heading {padding: 60px 0 0 0;}
+    .who_say {margin-top: -165px;}
+    .who_needs h2 {font-size: 29px;}
+    .who_needs p {font-size: 15px;}
+    .about {padding: 0px 0 25px 0;}
+    .delta_clients p.c_right_shape:before {bottom: -16px;right: 137px;}
+    .delta_clients p.c_right_second_shape:before{bottom: -15px;right: 351px;}
+}
+@media(max-width:990px) {
+    h2 {font-size: 25px;}
+    .who_say .heading p {padding: 8px 0 30px 0;line-height: 29px;font-size: 15px;}
+    .who_say .fre_quest h5 {padding: 11px 18px;font-size: 15px;line-height: 22px;min-height: 68px;}
+    .who_say .fre_quest p {font-size: 13px;min-height: 266px;line-height: 21px;padding: 14px 16px;}
+    .heading{padding: 60px 0 0 0;}
+    .delta_clients .clients_right h2 {font-size: 20px;margin-bottom: 23px;letter-spacing: 1px;line-height: 40px;}
+    .delta_clients p {margin-bottom: 10px;font-size: 12px;line-height: 24px;}
+    .delta_clients h5 {line-height: 43px;margin-bottom: 0;font-size: 24px;}
+    /*.delta_clients p.c_right_shape:before{right: 82px;bottom: -37px;}*/
+    .delta_clients ul.slick-dots li.slick-active button, .delta_clients ul.slick-dots li button{width: 41px;height: 8px;}
+    .delta_clients ul.slick-dots {bottom: -4px;}
+    .delta_clients {margin: 65px 0 72px 0;}
+    footer h2 {line-height: 37px;font-size: 22px;}
+    footer p {padding: 33px 0 37px 0;font-size: 14px;}
+    footer .footer_btn .btn {font-size: 15px;padding: 8px 16.5px;}
+    footer ul {padding: 37px 0 20px 0;}
+    footer ul li a {font-size: 14px;}
+    footer ul li:before{left: -31px;width: 7px;height: 7px;}
+    h1 {font-size: 22px;line-height: 43px;}
+    header .heading_center p {margin: 33px 0 35px 0;font-size: 15px;line-height: 29px;}
+    .header_btn .btn {font-size: 15px;}
+    .logo img {width: 100%;max-width: 300px;}
+    .who_needs h2 {font-size: 25px;line-height: 30px;}
+    .who_needs p {font-size: 14px;line-height: 25px;}
+    .who_needs .left p {font-size: 14px;line-height: 20px;}
+    .who_needs .left h3{line-height: 48px;font-size: 21px;margin-bottom: 0;}
+    .who_needs ul li .right img {width: 100%;max-width: 150px;}
+    .who_needs ul li:nth-child(even) .right {margin-right: 3px;margin-top: -35px;}
+    .who_needs ul li:nth-child(odd) .right {margin-top: -34px;}
+    .who_needs ul li:nth-child(5) .right {margin-top: -36px;}
+    .who_needs ul {margin-top: 11px;}
+    .who_needs_btn .btn {font-size: 16px;}
+    .who_need_btm p {padding: 28px 0px 17px 0;line-height: 24px;font-size: 14px;}
+    .about_right{margin-top: 0;}
+    .about img.about_before{top: -346px;left: -62%;max-width: 557px;}
+    .about .about_right h2 {font-size: 21px;line-height: 32px;}
+    .about .about_right p {font-size: 13px;margin-bottom: 10px;line-height: 28px;}
+    .about_btn .btn {padding: 8px 16.5px;font-size: 15px;}
+    .about_btn{margin-top: 15px;z-index: 9999;position: relative;}
+    .about.know img.about_before {left: 0% !important;top: -304px !important;max-width: 470px;}
+    .heading {padding: 50px 0 0 0;}
+    section.about.know {padding: 40px 0 103px 0 !important;}
+    .about{margin: 65px 0 0 0;}
+    .delta_clients p.c_right_shape:before {bottom: -31px;right: 186px;}
+    .delta_clients p.c_right_second_shape {bottom: -29px;right: 83px;}
+    .delta_clients p.c_right_second_shape:before {bottom: -1px;right: 5px;}
+}
+@media(max-width:767px) {
+    .who_say{padding: 195px 0 0 0;}
+    .heading{padding: 0 0;}
+    .who_say .heading p{font-size: 14px;padding: 13px 0 20px 0;}
+    .who_say .fre_quest h5{font-size: 15px;line-height: 42px;min-height: 50px;text-align: center;padding: 5px 18px;}
+    .who_say .fre_quest p {font-size: 12px;min-height: 0px;line-height: 21px;}
+    .box_first{margin-bottom: 0px;}
+    .fre_quest{margin-bottom: 15px;}
+    .delta_clients {margin: 70px 0 10px 0;}
+    .delta_clients ul.clients img{max-width: 480px;text-align: center;float: none;}
+    .delta_clients ul.clients figure,.clients_right{text-align: center;}
+    .delta_clients figcaption{margin-top: 5px;}
+    .delta_clients .clients_right h2{font-size: 18px;margin-bottom: 15px;text-align: center;}
+    .delta_clients ul.slick-dots{ left: 43%;bottom: -25px;}
+    .delta_clients ul.slick-dots li{float: left;}
+    .delta_clients ul{padding-bottom: 38px;}
+    /*.delta_clients p.c_right_shape:before{bottom: -17px;}*/
+    footer h2 {line-height: 34px;font-size: 20px;}
+    footer p {padding: 22px 0 26px 0;font-size: 13px;}
+    footer .footer_btn .btn {font-size: 14px;padding: 7px 16.5px;}
+    footer ul {padding: 37px 0 9px 0;}
+    footer ul li a {font-size: 13px;}
+    .head_top .row{display: inline-block;}
+    header{text-align: center;}
+    .heading_center {margin-top: 48px;}
+    .logo img {width: 100%;max-width: 264px;}
+    .logo {padding-top: 15px;}
+    h1 {font-size: 23px;line-height: 35px;}
+    header .heading_center p {margin: 20px 0 24px 0;font-size: 14px;line-height: 26px;max-width: 100%;}
+    .header_btn .btn {font-size: 15px;}
+    .header_right img {max-width: 532px;margin-top: 35px;}
+    .client_lap{display: block;}
+    .client_desk,.about_img,.about img.about_before{display: none;}
+    .who_needs ul li:nth-child(even) {display: flex;flex-direction: row-reverse;}
+    .who_needs ul li img.client_lap{max-width: 100px;float: right;width: auto;margin-top: 40px;}
+    .who_needs ul li{margin-bottom: 22px;}
+    .who_needs h2 {font-size: 22px;line-height: 28px;}
+    .who_needs .heading p {padding: 16px 0 15px 0;}
+    .who_needs .left h3{font-size: 19px;}
+    .who_need_btm p {padding: 25px 0px 17px 0;line-height: 24px;font-size: 13px;}
+    .who_needs_btn .btn {font-size: 14px;}
+    .about .row,.about_mob{display: inline-block;}
+    .about {margin: 0px 0 64px 0;}
+    img.about_mob {width: 100%;float: left;margin-left: -25px;}
+    .about img{margin-top: 0;}
+    .about_right {margin-top: 23px;text-align: center;}
+    .about .about_right p {font-size: 13px;margin-bottom: 10px;line-height: 26px;}
+    .about.know img.about_mob {margin-left: 26px;margin-top: -70px;}
+    .about {margin: 0px 0 40px 0;}
+    section.about.know {padding: 40px 0 82px 0;}
+    .delta_clients p.c_left_shape:before{content: url(../img/left_quote_mob.png);top: -13px;left: 17px;}
+    section.about.know {padding: 29px 0 103px 0 !important;}
+    .delta_clients p.c_right_shape:before{content: url(../img/right_quote_mob.png);bottom: -12px;right: 43px;}
+    .delta_clients p.c_right_second_shape:before{content: url(../img/right_quote_mob.png);bottom: 16px;right: -5px;}
+}
+@media(max-width:639px) {
+    .who_say .heading p {font-size: 13px;padding: 13px 0 20px 0;line-height: 22px;}
+    h2 {font-size: 22px;}
+    .who_say .fre_quest h5{padding: 0px 18px;}
+    .delta_clients {margin: 22px 0 10px 0;}
+    footer h2 {line-height: 31px;font-size: 19px;}
+    footer p {padding: 22px 0 26px 0;font-size: 12px;line-height: 22px;}
+    footer .footer_btn .btn {font-size: 12px;padding: 6px 13.5px;}
+    footer ul {padding: 27px 0 3px 0;}
+    .who_needs ul li img.client_lap {max-width: 72px;}
+    .who_needs .left p {font-size: 13px;}
+    .who_needs .left h3 {line-height: 42px;font-size: 19px;}
+    .who_needs ul li {margin-bottom: 14px;}
+    .who_needs h2 {font-size: 19px;line-height: 24px;}
+    .who_needs p {font-size: 13px;line-height: 22px;}
+    .who_needs .left h3 {line-height: 38px;font-size: 17px;}
+    .who_needs p {font-size: 12px;line-height: 20px;}
+    .about_btn .btn {padding: 8px 14.5px;font-size: 13px;}
+    .about .about_right h2 {font-size: 19px;line-height: 29px;}
+    section.about.know {padding: 40px 0 73px 0;}
+    .delta_clients .clients_right h2{line-height: 34px;}
+    .who_say {padding: 180px 0 0 0;}
+    .delta_clients p.c_left_shape:before{left: 0;}
+    /*.delta_clients p.c_right_shape:before{right: 0;}*/
+    section.about.know {padding: 0px 0 74px 0 !important;}
+    .about {margin: 0px 0 -6px 0;}
+    .about_right {margin-top: 30px;}
+    .delta_clients p.c_right_shape:before{right: 96px;}
+    .delta_clients p.c_right_second_shape:before{right: -33px;}
+}
+@media(max-width:479px) {
+    h2 {font-size: 20px;}
+    .who_say .heading p{padding: 0px 0 18px 0;}
+    .who_say .fre_quest h5{min-height: 45px;}
+    .who_say .fre_quest p{line-height: 19px}
+    h2 {font-size: 16px;}
+    .delta_clients .clients_right h2 {font-size: 15px;line-height: 28px;margin-bottom: 7px;}
+    .delta_clients p {margin-bottom: 10px;font-size: 12px;line-height: 21px;}
+    .delta_clients ul.slick-dots li.slick-active button, .delta_clients ul.slick-dots li button {width: 31px;height: 8px;}
+    .delta_clients h5 {line-height: 32px;margin-bottom: 0;font-size: 21px;}
+    footer h2 {line-height: 29px;font-size: 17px;}
+    footer p {padding: 15px 0 18px 0;}
+    footer .footer_btn .btn {font-size: 11px;padding: 5px 11.5px;}
+    footer ul li a {font-size: 12px;}
+    footer ul li{margin-right: 31px;}
+    footer ul li:before {left: -21px;width: 5px;height: 5px;top: 15px;}
+    .logo img {width: 100%;max-width: 200px;}
+    h1 {font-size: 19px;line-height: 31px;}
+    header .heading_center p {margin: 16px 0 19px 0;font-size: 12px;line-height: 24px;}
+    .header_btn .btn {font-size: 12px;}
+    .header_right img{margin-top: 26px;}
+    .who_needs ul li{display: flex;text-align: center;flex-direction: column-reverse;}
+    .who_needs ul li .col-md-5.col-sm-8,.who_needs ul li.col-md-7.col-sm-4{width: 100%;float: left;}
+    .who_needs ul li img.client_lap{width: 100%;}
+    .who_needs ul li:nth-child(even) {display: flex;flex-direction: column;}
+    .who_needs .left p {font-size: 12px;}
+    .who_needs .left h3 {font-size: 15px;}
+    .who_needs_btn .btn {font-size: 12px;}
+    .about .about_right h2 {font-size: 15px;line-height: 26px;}
+    .about .about_right p {font-size: 12px;margin-bottom: 5px;line-height: 22px;}
+    .about_btn .btn {padding: 7px 12.5px;font-size: 12px;}
+    .about {margin: 0px 0 49px 0;}
+    .about {margin: 0px 0 0px 0;}
+    .about.know img.about_mob{margin-top: -49px;}
+    section.about.know {padding: 4px 0 52px 0 !important;}
+    .who_say {padding: 167px 0 0 0;}
+    .delta_clients p.c_left_shape:before {content: url(../img/left_quote_mob_1.png);top: -10px;}
+    /*.delta_clients p.c_right_shape:before {content: url(../img/right_quote_mob_1.png);right: 116px;bottom: -16px;}*/
+    .who_needs{margin-top: -9px;}
+    .who_need_btm p {padding: 6px 0px 17px 0;}
+    .who_needs .heading p {padding: 16px 0 7px 0;}
+    .delta_clients p.c_right_shape:before {right: 72px;}
+    .delta_clients p.c_right_second_shape:before {right: 28px;}
+}
+@media(max-width:374px) {
+    .who_say .heading p {line-height: 19px;padding: 0px 0 18px 0;font-size: 12px;}
+    .who_say .fre_quest p {line-height: 17px;font-size: 11px;}
+    .who_say .fre_quest h5 {min-height: 40px;line-height: 38px;font-size: 12px;}
+    .delta_clients h5 {line-height: 30px;font-size: 18px;}
+    .delta_clients p {margin-bottom: 3px;font-size: 11px;line-height: 20px;}
+    footer h2 {line-height: 27px;font-size: 13px;}
+    footer p {padding: 10px 0 13px 0;font-size: 11px;line-height: 19px;}
+    footer .footer_btn .btn{padding: 4px 10.5px;}
+    footer ul li a {font-size: 11px;}
+    footer ul {padding: 14px 0 0px 0;}
+    h1 {font-size: 16px;line-height: 26px;}
+    header .heading_center p {margin: 12px 0 14px 0;font-size: 11px;line-height: 21px;}
+    .heading_center {margin-top: 38px;}
+    .header_btn .btn { padding: 6px 7.5px;}
+    .who_needs h2 {font-size: 15px;line-height: 18px;}
+    .who_needs .heading p { padding: 9px 0 5px 0;line-height: 17px;}
+    .who_needs ul li img.client_lap {max-width: 64px;}
+    .who_needs .left p {line-height: 17px;}
+    .who_need_btm p {padding: 7px 0px 16px 0;}
+    .who_needs_btn .btn {font-size: 11px;padding: 6px 9.5px;}
+    .about .about_right h2 {font-size: 14px;line-height: 21px;}
+    .about .about_right p {line-height: 20px;}
+    .about_btn .btn {padding: 7px 10.5px;font-size: 11px;}
+    .about .about_right p {font-size: 11px;}
+    .about.know img.about_mob {margin-top: -35px;}
+    section.about.know {padding: 0px 0 51px 0 !important;}
+   /* .delta_clients p.c_right_shape:before {content: url(../img/right_quote_mob_1.png);right: 15px;bottom: -17px;}*/
+   .delta_clients p.c_right_shape:before {right: 27px;bottom: -20px;}
+   .delta_clients p.c_right_second_shape:before {right: -60px;bottom: 6px;}
+}

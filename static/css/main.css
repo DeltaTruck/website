@@ -1,0 +1,448 @@
+/*** Elements ***/
+body {
+  background-color: #f8f8f8;
+  background-image:url('../img/body-bg.png');
+  background-size: 3820px auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: #46395b;
+}
+span[data-toggle="popover"] {
+  color: #ccc;
+}
+b, strong {
+  font-weight: bold;
+}
+.table-borderless th,
+.table-borderless td {
+  border-top: none;
+}
+
+/*** Buttons ***/
+button,
+button:hover,
+.btn,
+.btn:hover {
+  cursor: pointer !important;
+}
+.btn-primary {
+  background-color: #0bb8be;
+  border-color: #0bb8be;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #12adb3;
+  border-color: #12adb3;
+}
+.btn-outline-primary {
+  border-color: #0bb8be;
+}
+/*** Navbar ***/
+.navbar {
+  background-color: #3c1d78;
+  background-image: none;
+  background-size: auto;
+  background-position: 0% 0%;
+  background-repeat: repeat-x;
+  margin-bottom: 2rem;
+}
+.home-header-wrap .navbar {
+  background-color: transparent;
+  background-image: none;
+  background-size: auto;
+  background-position: 0% 0%;
+  background-repeat: repeat-x;
+  margin-bottom: 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+.navbar-brand {
+    font-weight: 800;
+}
+.navbar-brand img {
+    max-height: 40px;
+}
+
+/*** Wizard Nav ***/
+.nav-wizard {
+  margin-bottom: 20px;
+}
+.nav-pills.nav-wizard > li
+{
+  position: relative;
+  overflow: visible;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+
+.nav-pills.nav-wizard > li + li
+{
+  margin-left: 0;
+}
+
+.nav-pills.nav-wizard > li:first-child
+{
+  border-left: 0;
+}
+
+.nav-pills.nav-wizard > li:first-child a
+{
+  border-radius: 5px 0 0 5px;
+}
+
+.nav-pills.nav-wizard > li:last-child
+{
+  border-right: 0;
+}
+
+.nav-pills.nav-wizard > li:last-child a
+{
+  border-radius: 0 5px 5px 0;
+}
+
+.nav-pills.nav-wizard > li a
+{
+  border-radius: 0;
+  background-color: #eee;
+}
+
+.nav-pills.nav-wizard > li:not(:last-child) a:after
+{
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: -20px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 0 20px 20px;
+  border-color: transparent transparent transparent #eee;
+  z-index: 150;
+}
+
+.nav-pills.nav-wizard > li:not(:first-child) a:before
+{
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: -20px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 0 20px 20px;
+  border-color: #eee #eee #eee transparent;
+  z-index: 150;
+}
+
+.nav-pills.nav-wizard > li:hover:not(:last-child) a:not(.disabled):after
+{
+  border-color: transparent transparent transparent #aaa;
+}
+
+.nav-pills.nav-wizard > li:hover:not(:first-child) a:not(.disabled):before
+{
+  border-color: #aaa #aaa #aaa transparent;
+}
+
+.nav-pills.nav-wizard > li:hover a:not(.disabled)
+{
+  background-color: #aaa;
+  color: #fff;
+}
+
+.nav-pills.nav-wizard > li:not(:last-child) a.active:after
+{
+  border-color: transparent transparent transparent #428bca;
+}
+
+.nav-pills.nav-wizard > li:not(:first-child) a.active:before
+{
+  border-color: #428bca #428bca #428bca transparent;
+}
+
+.nav-pills.nav-wizard > li a.active
+{
+  background-color: #428bca;
+}
+
+
+
+/*** Home page styles ***/
+.home-header-wrap {
+  background-color: #3c1d78;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+.home-header-wrap h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: rgba(255,255,255,.9);
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+.home-header-wrap p {
+  color: rgba(255,255,255,.8);
+}
+.home-header-cta {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.home-header-cta .btn {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.home-header-wrap .irs-logo {
+  margin-bottom: 2.5rem;
+}
+.section-header-icon {
+  font-size: 3rem;
+  color: #242a74;
+}
+.home-main-wrap {
+  padding: 3rem 0;
+}
+.home-main-wrap .row-intro {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.row-cta .btn {
+  font-size: 2rem;
+  padding: .5rem 2rem;
+}
+
+/*** Page Elements ***/
+.container-top {
+  margin-top: 2rem;
+}
+.container-content {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 20px;
+}
+h1.page-header {
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+h2.section-header {
+  font-weight: 800;
+  font-size: 1.9rem;
+  margin-bottom: 1.9rem;
+}
+
+#id_vin,
+#id_vin_original,
+#id_vin_corrected,
+.vin {
+  text-transform: uppercase;
+}
+
+/*** Forms ***/
+label {
+  font-weight: bold;
+}
+.help-block {
+  font-size: 80%;
+  text-color: #868e96!important;
+  display: block;
+  margin-top: .25rem;
+}
+.radio label,
+.checkbox label {
+  font-weight: normal;
+}
+.form-buttons {
+  margin-top: 1rem;
+}
+label[for=id_captcha] {
+  display: none;
+}
+.form-group.is-invalid .invalid-feedback {
+  display: block;
+}
+.form-group.is-invalid .checkbox label {
+  color: #dc3545;
+}
+
+/*** Create Account Form ***/
+.form-create-account .g-recaptcha div:first-child {
+  margin: 0 auto;
+}
+
+/*** Credit Vehicle Form ***/
+.form-vehicle-credit .buyer-details {
+  display: none;
+}
+
+/*** Cards ***/
+.card {
+  margin-bottom: 1.5rem;
+}
+.card-header {
+  background-color: rgba(0,0,0,.07);
+}
+.card-benefits li {
+  margin-bottom: 1.5rem;
+}
+
+/*** Banners ***/
+.banner {
+  width: 100%;
+  background-image: none;
+  background-color: #3c1d78;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+/*** Backgrounds ***/
+.bg-fast-lines {
+  background-image: url(/static/img/fast-lines.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*** Payment ***/
+.order-total {
+  background-color: rgba(0,0,0,.05);
+}
+
+/*** Footer ***/
+.footer .container {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/*** Scratch Off ***/
+#scratch {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+}
+#scratch img {
+  width: 100%;
+  max-width: 916px;
+  height: auto;
+}
+#scratch canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  will-change: transform;
+  transform: translate3d(0,0,0);
+  -ms-touch-action: none;
+  -webkit-touch-action: none;
+  -moz-touch-action: none;
+  touch-action: none;
+  transition: opacity 500ms ease-out 0ms, height 0ms linear 500ms;
+}
+#scratch.revealed canvas {
+  opacity: 0;
+  height: 0;
+}
+
+/*** Box ***/
+.box {
+    padding: 3rem 2rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.box .icon {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+/*** IRS Payment Page ***/
+.payment-details {
+  display: none;
+}
+#select_payment_type {
+  display: block;
+}
+.payment-consent-efw-group {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.payment-consent-efw-group label {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.payment-consent-eftps-group label {
+  font-weight: bold;
+}
+.payment-consent-check-group label {
+  font-weight: bold;
+}
+
+/*** Third Party Designee Page ***/
+.designee-details {
+  display: none;
+}
+
+/*** Flatpages ***/
+.flatpage-img-header {
+  margin-top: -2rem;
+}
+
+/*** Responsive styles ***/
+@media (max-width: 991px) {
+  .home-header-wrap h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-wizard .nav-link {
+    padding: .5rem .4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-header-wrap h1 {
+    font-size: 1.5rem;
+  }
+  .home-header-wrap .lead {
+    font-size: 1rem;
+  }
+  .permit-preview-header h2 {
+    font-size: 1.5rem;
+  }
+  .permit-preview-header h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer .nav-link {
+    padding: .5rem .2rem;
+  }
+}
+
+/*** Print styles ***/
+@media print {
+  body {
+    background-color: #fff;
+    background-image:none;
+    background-size: auto;
+  }
+  .container {
+    width: auto;
+  }
+}
